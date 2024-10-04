@@ -5,139 +5,141 @@ function Footer(){
             <div id='footlaptop'>
             <div id='footerlaptop'>
             <div id='footerleft'>
-                <h3 className="hoverable-element">Quick links</h3>
+                <h3 >Quick links</h3>
                 <br/>
                 <div className='laptopFooter'>
-                    <a className="hoverable-element" href="">Home</a>
-                    <a className="hoverable-element" href="">Backed By</a>
-                    <a className="hoverable-element" href="">Blogs</a>
-                    <a className="hoverable-element" href="">About us</a>
-                    <a className="hoverable-element" href="">Partnerships</a>
-                    <a className="hoverable-element" href="">FAQs</a>
-                    <a className="hoverable-element" href="">Contact</a>
+                    <a  href="">Home</a>
+                    <a  href="">Backed By</a>
+                    <a  href="">Blogs</a>
+                    <a  href="">About us</a>
+                    <a  href="">Partnerships</a>
+                    <a  href="">FAQs</a>
+                    <a  href="">Contact</a>
                 </div>
                 <div className='mobileFooter'>
-                    <a className="hoverable-element" href="">Home</a>
-                    <a className="hoverable-element" href="">Backed By</a>
-                    <a className="hoverable-element" href="">Blogs</a>
-                    <a className="hoverable-element" href="">About us</a>
+                    <a  href="">Home</a>
+                    <a  href="">Backed By</a>
+                    <a  href="">Blogs</a>
+                    <a  href="">About us</a>
                 </div>
                 <div className='mobileFooter'>
-                    <a className="hoverable-element" href="">Partnerships</a>
-                    <a className="hoverable-element" href="">FAQs</a>
-                    <a className="hoverable-element" href="">Contact</a>
+                    <a  href="">Partnerships</a>
+                    <a  href="">FAQs</a>
+                    <a  href="">Contact</a>
                 </div>
                 <br/>
-                <h3 className="hoverable-element">Categories</h3>
-                <br/>
-                <div className='laptopFooter'>
-                    <a className="hoverable-element" href="">Office</a>
-                    <a className="hoverable-element" href="">Hostipals</a>
-                    <a className="hoverable-element" href="">Educational Institutions</a>
-                    <a className="hoverable-element" href="">Stationary</a>
-                    <a className="hoverable-element" href="">Gym</a>
-                    <a className="hoverable-element" href="">Hostel</a>
-                    <a className="hoverable-element" href="">Mails</a>
-                </div>
-                <div className='mobileFooter'>
-                    <a className="hoverable-element" href="">Office</a>
-                    <a className="hoverable-element" href="">Hostipals</a>
-                    <a className="hoverable-element" href="">Educational Institutions</a>
-                </div>
-                <div className='mobileFooter'>
-                    <a className="hoverable-element" href="">Stationary</a>
-                    <a className="hoverable-element" href="">Gym</a>
-                    <a className="hoverable-element" href="">Hostel</a>
-                    <a className="hoverable-element" href="">Mails</a>
-                </div>
+                <h3 >Categories</h3>
                 <br/>
                 <div className='laptopFooter'>
-                    <p><img className="hoverable-element" src='location.png' alt='not available' height='20' width='20'/> Appen your address here</p>
-                    <p><img className="hoverable-element" src='location.png' alt='not available' height='20' width='20'/> info@gmail.com</p>
-                    <p><img className="hoverable-element" src='location.png' alt='not available' height='20' width='20'/>+919999999999</p>
+                    <a  href="">Office</a>
+                    <a  href="">Hostipals</a>
+                    <a  href="">Educational Institutions</a>
+                    <a  href="">Stationary</a>
+                    <a  href="">Gym</a>
+                    <a  href="">Hostel</a>
+                    <a  href="">Mails</a>
+                </div>
+                <div className='mobileFooter'>
+                    <a  href="">Office</a>
+                    <a  href="">Hostipals</a>
+                    <a  href="">Educational Institutions</a>
+                </div>
+                <div className='mobileFooter'>
+                    <a  href="">Stationary</a>
+                    <a  href="">Gym</a>
+                    <a  href="">Hostel</a>
+                    <a  href="">Mails</a>
+                </div>
+                <br/>
+                <div className='laptopFooter'>
+                    <p><a href=''><img  src='location.png' alt='not available' height='20' width='20'/></a> Appen your address here</p>
+                    <p><a href=''><img  src='mail.png' alt='not available' height='20' width='20'/> </a>info@gmail.com</p>
+                    <p><a href=''><img  src='phone.png' alt='not available' height='20' width='20'/></a>+919999999999</p>
                 </div>
                 <br/>
             </div>
             <div id="footerright">
-                <h3 className="hoverable-element">Social Media Links</h3>
-                <p><img className="hoverable-element" src='location.png' alt='not available'/>
-                <img className="hoverable-element" src='location.png' alt='not available'/>
-                <img className="hoverable-element" src='location.png' alt='not available'/>
-                <img className="hoverable-element" src='location.png' alt='not available'/>
-                <img className="hoverable-element" src='location.png' alt='not available'/>
-                <img className="hoverable-element" src='location.png' alt='not available'/></p>
+                <h3 >Social Media Links</h3>
+                <p>
+                <a  href=""><img  src='facebook.png' alt='not available'/></a>
+                <a  href=""><img  src='instagram.png' alt='not available'/></a>
+                <a  href=""><img  src='linkedin.png' alt='not available'/></a>
+                <a  href=""><img  src='twitter.png' alt='not available'/></a>
+                <a  href=""><img  src='whatsapp.png' alt='not available'/></a>
+                <a  href=""><img  src='youtube.png' alt='not available'/></a></p>
                 Terms and Conditions 
                 <br></br>
                 <br></br>Privacy Policy
             </div>
         </div>
-        <p className="hoverable-element" id='footp'>Copyright © 2022 24buy7</p>
+        <p  id='footp'>Copyright © 2022 24buy7</p>
         </div>
         <div id='footermobile'>
         <br/>
                 <div>
-                <h3 className="hoverable-element">Quick links</h3>
+                <h3 >Quick links</h3>
                 <br/>
                 </div>
                 <div className='mobileFooter'>
-                    <a className="hoverable-element" href="">Home</a>
-                    <a className="hoverable-element" href="">Backed By</a>
-                    <a className="hoverable-element" href="">Blogs</a>
-                    <a className="hoverable-element" href="">About us</a>
+                    <a  href="">Home</a>
+                    <a  href="">Backed By</a>
+                    <a  href="">Blogs</a>
+                    <a  href="">About us</a>
                 </div>
                 <br/>
                 <div className='mobileFooter'>
-                    <a className="hoverable-element" href="">Partnerships</a>
-                    <a className="hoverable-element" href="">FAQs</a>
-                    <a className="hoverable-element" href="">Contact</a>
+                    <a  href="">Partnerships</a>
+                    <a  href="">FAQs</a>
+                    <a  href="">Contact</a>
                 </div>
                 <br/><br/>
-                <h3 className="hoverable-element">Categories</h3>
+                <h3 >Categories</h3>
                 <br/>
                 <div className='mobileFooter'>
-                    <a className="hoverable-element" href="">Office</a>
-                    <a className="hoverable-element" href="">Hostipals</a>
-                    <a className="hoverable-element" href="">Educational Institutions</a>
+                    <a  href="">Office</a>
+                    <a  href="">Hostipals</a>
+                    <a  href="">Educational Institutions</a>
                 </div>
                 <br/>
                 <div className='mobileFooter'>
-                    <a className="hoverable-element" href="">Stationary</a>
-                    <a className="hoverable-element" href="">Gym</a>
-                    <a className="hoverable-element" href="">Hostel</a>
-                    <a className="hoverable-element" href="">Mails</a>
+                    <a  href="">Stationary</a>
+                    <a  href="">Gym</a>
+                    <a  href="">Hostel</a>
+                    <a  href="">Mails</a>
                 </div>
                 <br/><br/>
                 <div>
-                    <p><img className="hoverable-element" src='location.png' alt='not available' height='20' width='20'/></p>
+                    <p><a href=''><img  src='location.png' alt='not available' height='20' width='20'/></a></p>
                 </div>
                 <div>
                     <p>Appen your address here</p>
                 </div>
                 <br/>
                 <div>
-                    <p><img className="hoverable-element" src='location.png' alt='not available' height='20' width='20'/></p>
+                    <p><a href=''><img  src='mail.png' alt='not available' height='20' width='20'/></a></p>
                 </div>
                 <div>
                     <p>info@gmail.com</p>
                 </div>
                 <br/>
                 <div>
-                    <p><img className="hoverable-element" src='location.png' alt='not available' height='20' width='20'/></p>
+                    <p><a href=''><img  src='phone.png' alt='not available' height='20' width='20'/></a></p>
                 </div>
                 <div>
                     <p>+919999999999</p>
                 </div>
                 <br/><br/>
             <div>
-                <h3 className="hoverable-element">Social Media Links</h3>
+                <h3 >Social Media Links</h3>
             </div>
             <br/>
-            <p><img className="hoverable-element" src='location.png' alt='not available'/>
-            <img className="hoverable-element" src='location.png' alt='not available'/>
-            <img className="hoverable-element" src='location.png' alt='not available'/>
-            <img className="hoverable-element" src='location.png' alt='not available'/>
-            <img className="hoverable-element" src='location.png' alt='not available'/>
-            <img className="hoverable-element" src='location.png' alt='not available'/></p>
+            <p>
+                <a  href=""><img  src='facebook.png' alt='not available'/></a>
+                <a  href=""><img  src='instagram.png' alt='not available'/></a>
+                <a  href=""><img  src='linkedin.png' alt='not available'/></a>
+                <a  href=""><img  src='twitter.png' alt='not available'/></a>
+                <a  href=""><img  src='whatsapp.png' alt='not available'/></a>
+                <a  href=""><img  src='youtube.png' alt='not available'/></a></p>
             <br/>
             <p>Terms and Conditions</p>
             <br/> 

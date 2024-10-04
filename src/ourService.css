@@ -6,13 +6,33 @@
     flex-direction: column;
     align-items: center;
     color:#22116C;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Lexend';
+}
+.ourServicePage div{
+    animation: our ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+@keyframes our {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+            opacity: 1;
+            transform: translateY(0px);
+    }
+}
+#ourh{
+    text-align: center;
+    margin-top: 7vh;
 }
 .ourServicePage h1{
     font-size: 2.5rem;
     font-weight: 900;
     color:#22116C;
     margin-bottom: 10vh;
+    font-family: 'Lexend';
 }
 .ourServicePage .firstService{
     position: relative;
@@ -29,11 +49,11 @@
 }
 .firstService .left{
     position: relative;
-    height:50vh;
+    height:fit-content;
     background-color: #22116C;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     color:yellow;
 }
 .left h1{
@@ -46,15 +66,14 @@
     font-weight: bold;
 }
 .left p{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-bottom: 5vh;
     color:yellow;
     background-color: #22116C;
     font-size: 0.9rem;
 }
 .firstService .right{
     position: relative;
-    height:50vh;
+    height:fit-content;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -103,12 +122,13 @@ p .paraheading{
 
 .secondService .left{
     position: relative;
-    height:70vh;
+    height:fit-content;
     background-color: #22116C;
     display: flex;
     flex-direction: column;
     width: 30%;
     color:yellow;
+    margin-left: 2vw;
 }
 .left h1{
     margin-top: 10%;
@@ -117,7 +137,7 @@ p .paraheading{
     color:yellow;
     background-color: #22116C;
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: bold; 
 }
 .left p{
     margin-left: 10%;
@@ -129,7 +149,7 @@ p .paraheading{
 
 .secondService .right{
     position: relative;
-    height:50vh;
+    height:fit-content;
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -152,7 +172,7 @@ p .paraheading{
 }
 .thirdService .left{
     position: relative;
-    height:70vh;
+    height:fit-content;
     background-color: #22116C;
     display: flex;
     flex-direction: column;
@@ -161,7 +181,7 @@ p .paraheading{
 }
 .thirdService .right{
     position: relative;
-    height:50vh;
+    height:fit-content;
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -173,26 +193,48 @@ p .paraheading{
     display: flex;
     flex-direction: row;
     padding-left: 10%;
+    justify-content: center;
+}
+.i1{
+    animation: rotate1 3s 1;
+    animation-timing-function:ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+.i2{
+    animation: rotate2 3s 1;
+    animation-timing-function:ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+.ourServicePage .imagesSection:nth-child(2){
+    animation-delay: 0.25s;
+}
+.ourServicePage .imagesSection:nth-child(2){
+    animation-delay: 0.5s;
+}
+@keyframes rotate1 {
+    50% {
+        opacity: 0.5;
+        transform: rotate(180deg);
+        background: linear-gradient(90deg);
+    }
+}
+@keyframes rotate2 {
+    50% {
+        opacity: 0.5;
+        transform: rotate(180deg);
+        background: linear-gradient(90deg);
+    }
 }
 @media screen and (max-width: 1400px) {
-    .firstService .left{
-        width:50%;
-    }
 }
 @media screen and (max-width: 1000px) {
-    .firstService .left{
-        width:60%;
-        height:40vh;
-    }
-    .secondService .left{
-        width: 40%;
-        height:60vh;
-    }
-    .thirdService .left{
-        height: 60vh;
-    }
     .left h1{
         font-size: 2rem;
+    }
+    .eachLine .content{
+        font-size: 0.7rem;
     }
 }
 @media screen and (max-width: 720px) {
@@ -241,5 +283,14 @@ p .paraheading{
         flex-direction: column;
         text-align: center;
         margin-top: 3vh;
+    }
+}
+@media(max-width:350px){
+    .left h1{
+        color: white;
+        font-size: 2.75rem;
+    }
+    .imageSection img{
+        width: 40vh;
     }
 }

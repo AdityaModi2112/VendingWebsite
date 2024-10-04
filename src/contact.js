@@ -2,18 +2,12 @@ import React from 'react';
 import './contact.css';
 function Contact() {
   return (
-    <div className="contact">
-      <h1 className="hoverable-element">CONTACT US!</h1>
+    <div className="contact" id='contactpage'>
+      <div  className='ourServicePage'><h1>CONTACT US!</h1></div>
       <form action="/adddata" method="post">
         <div className='firstfield'>
             <input className='Fname' type='text' placeholder='First Name' name='Fname' required/>
             <input className='Lname' type='text' placeholder='Last Name' name='Lname' required/>
-        </div>
-        <div className='mobilefield'>
-        <input className='Fname' type='text' placeholder='First Name' name='Fname' required/>
-        </div>
-        <div className='mobilefield'>
-        <input className='Lname' type='text' placeholder='Last Name' name='Lname' required/>
         </div>
         <div className='restfield'>
         <input type='email' placeholder='Email' name='Email' required/>
@@ -27,9 +21,9 @@ function Contact() {
         <div className='textfield'>
         <textarea type='text' rows="6" placeholder='Message' name='Message' required/>
         </div>
-        <div className='contactbutton'>
-          <input type="submit" value="Send Message →"/>
-        </div>
+        <div className='brandbybutton'>
+        <button  id='post'>Send Message→</button>
+       </div>
       </form>
     </div>
   );

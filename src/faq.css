@@ -7,17 +7,35 @@
     flex-direction: column;
     align-items: center;
     color:white;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Lexend';
+    animation-duration: 1s;
+    animation-name: brandby;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline:view();
+    animation-range: entry 0;
 }
-
-.faqpage h1{
-    color:#22116C;
+@keyframes brandby {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        scale: 1;
+        opacity: 1;
+    }
 }
 
 .faqpage .para{
+    margin-bottom: 5vh;
+}
+.faqpage .para p{
+    text-align: center;
+    color:#636363;
     font-size: 0.7rem;
     color:#636363;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
 }
 .faqpage .eachFaq{
     position: relative;
@@ -56,4 +74,13 @@ hr{
     background-color: #636363;
     height: 0.05vh;
     width: 100%;
+}
+#faqh{
+    color:#22116C;
+    margin-bottom: 0px;
+}
+@media(max-width:540px){
+    #faqbutton{
+        margin-top: 5vh;
+    }
 }
