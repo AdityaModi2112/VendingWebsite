@@ -1,4 +1,5 @@
 #!/bin/bash
-cd /var/www/vendingapp
-# Install both frontend and backend dependencies
+
+cd
+ /home/ec2-user/VendingWebsite
 npm install
