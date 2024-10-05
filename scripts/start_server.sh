@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cd
- /home/ec2-user/VendingWebsite
-nohup
- npm start > output.log 2>&1 &
+# Navigate to the project directory
+cd /home/ec2-user/VendingWebsite
+
+# Start the Node.js server (assuming your backend server is defined in your project)
+npm start
