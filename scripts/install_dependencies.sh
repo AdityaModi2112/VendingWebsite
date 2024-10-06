@@ -15,7 +15,7 @@ sudo systemctl start mongodb
 sudo systemctl enable mongodb
 
 # Navigate to the project directory and install dependencies
-cd /home/ec2-user/VendingWebsite
+cd /home/ubuntu/VendingWebsite
 
 # Install Node.js dependencies from package.json
 npm install
