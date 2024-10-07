@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the project directory
-cd /home/ubuntu/VendingWebsite
+cd /home/ec2-user/VendingWebsite
 
 # Install dependencies
 npm install
