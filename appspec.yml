@@ -2,28 +2,28 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/VendingWebsite
+    destination: /home/ec2-user/VendingWebsite
 
 hooks:
   BeforeInstall:
     # Install Node.js, npm, and MongoDB
     - location: scripts/install_dependencies.sh
       timeout: 300
-      runas: ubuntu  # Change to ubuntu
+      runas: ec2-user  # Changed to ec2-user
 
   AfterInstall:
     # Build the React frontend (compiling the src folder into production-ready code)
     - location: scripts/build_frontend.sh
       timeout: 300
-      runas: ubuntu  # Change to ubuntu
+      runas: ec2-user  # Changed to ec2-user
     
     # Start the backend server (Node.js server)
     - location: scripts/start_server.sh
       timeout: 300
-      runas: ubuntu  # Change to ubuntu
+      runas: ec2-user  # Changed to ec2-user
   
   ApplicationStop:
     # Verify if the server is stopped
     - location: scripts/verify_server.sh
       timeout: 300
-      runas: ubuntu  # Change to ubuntu
+      runas: ec2-user  # Changed to ec2-user
